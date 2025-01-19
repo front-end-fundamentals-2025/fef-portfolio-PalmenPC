@@ -39,14 +39,6 @@ a {
   font-family: "Quicksand", sans-serif;
 }
 
-#about-me-text {
-  width: 40%;
-  margin: auto;
-  display: block;
-  justify-content: center;
-  align-items: center;
-}
-
 /* FOOTER */
 footer {
   position: fixed;
