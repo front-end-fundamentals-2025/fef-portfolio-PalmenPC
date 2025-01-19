@@ -1,7 +1,16 @@
 /* FONTS */
-h1 {
+h1,
+h2 {
   font-family: "Oswald", sans-serif;
   text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 p,
