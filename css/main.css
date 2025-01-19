@@ -1,3 +1,16 @@
+/* FONTS */
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+p,
+a,
+label,
+input {
+  font-family: "Quicksand", sans-serif;
+}
+
 /* HEADER */
 header {
   display: flex;
@@ -27,16 +40,6 @@ nav li {
 a {
   text-decoration: none;
   text-align: center;
-}
-
-h1 {
-  font-family: "Oswald", sans-serif;
-  text-align: center;
-}
-
-p,
-a {
-  font-family: "Quicksand", sans-serif;
 }
 
 /* FOOTER */
