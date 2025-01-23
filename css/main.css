@@ -1,5 +1,7 @@
 body {
+  margin: 0;
   background-color: rgb(26, 24, 24);
+  font-family: "Quicksand", sans-serif;
   color: white;
 }
 
@@ -11,18 +13,11 @@ h2 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 30px;
-}
-
-p,
-a,
-label,
-input {
-  font-family: "Quicksand", sans-serif;
+  font-size: 1.875rem;
 }
 
 /* HEADER */
@@ -33,14 +28,13 @@ header {
 
 nav ul {
   display: flex;
-  margin: 0 10px 0 0;
-  padding: 8px;
+  margin: 10px 25px 0 0;
 }
 
 nav li {
-  list-style-type: none;
-  margin: 0 -8px 6px 20px;
-  font-size: 20px;
+  list-style: none;
+  margin: 0 -10px 6px 30px;
+  font-size: 1.3rem;
   text-align: center;
 }
 
@@ -52,14 +46,4 @@ a {
 
 a:hover {
   color: gray;
-}
-
-/* FOOTER */
-footer {
-  position: fixed;
-  bottom: 0;
-}
-
-footer a {
-  margin-right: 20px;
 }
