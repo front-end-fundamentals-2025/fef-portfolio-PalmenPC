@@ -17,12 +17,3 @@
   justify-content: center;
   align-items: center;
 }
-
-#projects-gallery {
-  display: flex;
-  justify-content: center;
-}
-
-.project-image {
-  width: 30%;
-}
