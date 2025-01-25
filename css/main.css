@@ -5,7 +5,7 @@ body {
   color: white;
 }
 
-/* FONTS */
+/* Fonts */
 h1,
 h2 {
   font-family: "Oswald", sans-serif;
@@ -20,13 +20,13 @@ h2 {
   font-size: 1.875rem;
 }
 
-/* HEADER */
+/* Header */
 header {
   display: flex;
   justify-content: right;
 }
 
-/* NAVIGATION */
+/* Navigation */
 nav ul {
   display: flex;
   margin: 10px;
