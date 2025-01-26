@@ -20,17 +20,16 @@ h2 {
   font-size: 1.875rem;
 }
 
-/* Header */
+/* Header Navigation */
 header {
-  display: flex;
-  justify-content: right;
+  background-color: black;
 }
 
-/* Navigation */
 nav ul {
   display: flex;
-  margin: 10px;
-  padding: 0px;
+  margin: 0;
+  padding: 16px;
+  justify-content: center;
 }
 
 nav li {
@@ -39,11 +38,28 @@ nav li {
   font-size: 1.3rem;
 }
 
+/* Footer Navigation */
+footer {
+  background-color: black;
+}
+
+footer ul {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+footer li {
+  list-style: none;
+  margin: 0 20px 0 20px;
+}
+
+/* Links */
 a {
   text-decoration: none;
   color: white;
 }
 
 a:hover {
-  color: gray;
+  color: rgb(151, 151, 151);
 }
