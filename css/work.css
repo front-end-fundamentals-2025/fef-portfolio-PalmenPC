@@ -17,6 +17,7 @@ main {
 
 #work-gallery {
   display: grid;
+  margin: 15px 0 0 0;
 }
 
 figure {
