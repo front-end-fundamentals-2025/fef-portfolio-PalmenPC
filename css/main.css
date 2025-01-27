@@ -22,6 +22,10 @@ body {
   margin-top: -4px;
 }
 
+.info-paragraph {
+  text-align: center;
+}
+
 /* Header Navigation */
 header {
   background-color: black;
@@ -31,13 +35,17 @@ nav ul {
   display: flex;
   margin: 0;
   padding: 16px;
-  justify-content: center;
+  align-items: center;
 }
 
 nav li {
   list-style: none;
   margin: 0 10px 0 10px;
   font-size: 1.3rem;
+}
+
+#logo {
+  margin-right: auto;
 }
 
 /* Footer Navigation */
@@ -47,8 +55,8 @@ footer {
 
 footer ul {
   display: flex;
-  padding: 8px;
-  justify-content: space-between;
+  padding: 1%;
+  justify-content: space-around;
 }
 
 footer li {

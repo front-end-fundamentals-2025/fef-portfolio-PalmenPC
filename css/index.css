@@ -1,7 +1,19 @@
-#about-me-text {
-  width: 20%;
-  margin: auto;
-  display: block;
-  justify-content: center;
-  align-items: center;
+body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+section {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
 }
