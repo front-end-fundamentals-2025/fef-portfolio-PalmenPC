@@ -12,28 +12,30 @@ header {
 
 main {
   grid-area: main;
-  margin: 0 35px 0 35px;
+  margin: 0;
 }
 
 #work-gallery {
   display: grid;
-  margin: 15px 0 0 0;
+  gap: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 figure {
-  grid-area: img;
-  height: 85%;
+  margin: 0;
 }
 
 img {
+  grid-area: img;
   width: 100%;
-  height: 100%;
-  border-radius: 4%;
-  transition: opacity 0.5s ease;
+  height: 90%;
+  object-fit: cover;
+  transition: opacity 0.4s ease;
 }
 
 img:hover {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 figcaption {
@@ -45,7 +47,7 @@ footer {
 }
 
 /*Media Queries*/
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
   #work-gallery {
     grid-template-areas:
       "img img"
@@ -54,7 +56,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1800px) {
   #work-gallery {
     grid-template-areas:
       "img img img"

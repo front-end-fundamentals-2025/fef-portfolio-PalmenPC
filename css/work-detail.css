@@ -14,6 +14,29 @@ main {
   grid-area: main;
 }
 
+#work-detail-gallery {
+  display: grid;
+  grid-template-areas:
+    "img img"
+    "img img";
+  gap: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  grid-area: img;
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
 footer {
   grid-area: footer;
 }
