@@ -17,13 +17,13 @@ main {
 
 #work-gallery {
   display: grid;
+  margin-top: 3%;
+  margin-bottom: 0;
   gap: 1%;
-  margin-top: 2%;
-  margin-bottom: 2%;
 }
 
 figure {
-  margin: 0;
+  margin: 0 0 2% 0;
 }
 
 img {
@@ -40,6 +40,7 @@ img:hover {
 
 figcaption {
   text-align: center;
+  margin-top: 0.5%;
 }
 
 footer {
@@ -47,6 +48,18 @@ footer {
 }
 
 /*Media Queries*/
+@media screen and (max-width: 320px) {
+  #work-gallery {
+    grid-template-areas:
+      "img"
+      "img"
+      "img"
+      "img"
+      "img"
+      "img";
+  }
+}
+
 @media screen and (min-width: 800px) {
   #work-gallery {
     grid-template-areas:

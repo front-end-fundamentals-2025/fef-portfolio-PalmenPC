@@ -22,8 +22,9 @@ footer {
 form {
   display: flex;
   flex-direction: column;
-  width: 20vw;
-  margin: 1% auto 4% auto;
+  min-width: 20%;
+  max-width: 20%;
+  margin: 2% auto 9% auto;
 }
 
 #full-name,
