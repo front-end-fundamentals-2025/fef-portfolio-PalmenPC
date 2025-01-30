@@ -1,25 +1,8 @@
-body {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-}
-
-header {
-  grid-area: header;
-}
-
-main {
-  grid-area: main;
-  margin: 0;
-}
-
 #work-gallery {
   display: grid;
-  margin-top: 3%;
-  margin-bottom: 0;
-  gap: 1%;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
 }
 
 figure {
@@ -31,7 +14,7 @@ img {
   width: 100%;
   height: 90%;
   object-fit: cover;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.3s ease-in-out;
 }
 
 img:hover {
@@ -41,10 +24,6 @@ img:hover {
 figcaption {
   text-align: center;
   margin-top: 0.5%;
-}
-
-footer {
-  grid-area: footer;
 }
 
 /*Media Queries*/

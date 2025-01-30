@@ -1,35 +1,15 @@
-body {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-}
-
-header {
-  grid-area: header;
-}
-
-main {
-  grid-area: main;
-}
-
-footer {
-  grid-area: footer;
-}
-
 /* Contact Form */
 form {
   display: flex;
   flex-direction: column;
-  min-width: 20%;
-  max-width: 20%;
-  margin: 2% auto 9% auto;
+  min-width: 18rem;
+  max-width: 25rem;
+  margin: 1rem auto 4rem auto;
 }
 
 #full-name,
 #email {
-  padding: 1.5%;
+  padding: 0.5rem;
 }
 
 label {
@@ -37,5 +17,20 @@ label {
 }
 
 #submit-button {
-  margin-top: 1%;
+  margin-top: 0.6rem;
+  padding: 0.4rem;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#submit-button:hover {
+  background-color: rgb(139, 139, 139);
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media screen and (max-width: 440px) {
+  form {
+    margin: 2% 4% 8% 4%;
+  }
 }
