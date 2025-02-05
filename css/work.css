@@ -1,8 +1,7 @@
 #work-gallery {
   display: grid;
   gap: 1rem;
-  margin-top: 2.5rem;
-  margin-bottom: 4rem;
+  margin: 2.5rem 1rem 4rem 1rem;
 }
 
 figure {
@@ -14,11 +13,12 @@ img {
   width: 100%;
   height: 90%;
   object-fit: cover;
-  transition: opacity 0.3s ease-in-out;
 }
 
 img:hover {
-  opacity: 0.6;
+  animation-name: grow-and-dim;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
 }
 
 figcaption {
@@ -26,19 +26,19 @@ figcaption {
   margin-top: 0.5%;
 }
 
-/*Media Queries*/
-@media screen and (max-width: 320px) {
-  #work-gallery {
-    grid-template-areas:
-      "img"
-      "img"
-      "img"
-      "img"
-      "img"
-      "img";
+/* Animations */
+@keyframes grow-and-dim {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.012);
+    opacity: 0.6;
   }
 }
 
+/* Media Queries */
 @media screen and (min-width: 800px) {
   #work-gallery {
     grid-template-areas:
@@ -48,7 +48,7 @@ figcaption {
   }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1600px) {
   #work-gallery {
     grid-template-areas:
       "img img img"
