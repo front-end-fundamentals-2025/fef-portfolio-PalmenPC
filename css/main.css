@@ -46,6 +46,12 @@ nav li {
   margin: 0 0.5rem 0 0.5rem;
 }
 
+nav li:hover {
+  animation-name: wiggle;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+}
+
 #logo {
   margin-right: auto;
   text-wrap: nowrap;
@@ -74,7 +80,20 @@ a {
 }
 
 a:hover {
-  color: rgb(151, 151, 151);
+  color: rgb(155, 13, 13);
+}
+
+/* Animations */
+@keyframes wiggle {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
 }
 
 /* Media Queries */
