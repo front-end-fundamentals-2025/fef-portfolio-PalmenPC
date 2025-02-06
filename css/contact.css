@@ -20,11 +20,11 @@ label {
   margin-top: 0.6rem;
   padding: 0.4rem;
   border: none;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 #submit-button:hover {
-  background-color: rgb(139, 139, 139);
+  background-color: var(--light-gray);
   cursor: pointer;
 }
 

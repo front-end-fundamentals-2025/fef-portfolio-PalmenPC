@@ -1,8 +1,15 @@
+html {
+  --black: black;
+  --white: white;
+  --gray: #1f1e1e;
+  --light-gray: #9b9b9b;
+}
+
 body {
   margin: 0;
-  background-color: rgb(31, 30, 30);
+  background-color: var(--gray);
   font-family: "Quicksand", sans-serif;
-  color: white;
+  color: var(--white);
 }
 
 /* Fonts */
@@ -32,7 +39,7 @@ body {
 
 /* Header Navigation */
 header {
-  background-color: black;
+  background-color: var(--black);
 }
 
 nav ul {
@@ -59,7 +66,7 @@ nav li:hover {
 
 /* Footer Navigation */
 footer {
-  background-color: black;
+  background-color: var(--black);
 }
 
 footer ul {
@@ -77,11 +84,11 @@ footer li {
 /* Links */
 a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 a:hover {
-  color: rgb(155, 13, 13);
+  color: var(--light-gray);
 }
 
 /* Animations */
