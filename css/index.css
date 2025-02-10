@@ -1,12 +1,12 @@
+/* Hero Section */
 #hero-section {
   font-family: "Oswald", sans-serif;
-  text-align: center;
 }
 
 #hero-heading {
   font-size: 5rem;
   margin-bottom: 0;
-  margin: 15rem 0 0 0;
+  margin: 10rem 0 0 0;
 }
 
 #hero-subheading {

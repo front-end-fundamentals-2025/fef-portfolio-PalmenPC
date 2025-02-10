@@ -23,7 +23,7 @@ label {
   transition: background-color 0.2s ease-in-out;
 }
 
-#submit-button:hover {
+#send-button:hover {
   background-color: var(--light-gray);
   cursor: pointer;
 }
