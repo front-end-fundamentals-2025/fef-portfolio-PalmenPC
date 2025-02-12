@@ -1,22 +1,30 @@
+main {
+  height: 100vh;
+}
+
 /* Contact Form */
-form {
+#contact-form {
   display: flex;
   flex-direction: column;
   min-width: 18rem;
   max-width: 25rem;
-  margin: 1rem auto 4rem auto;
+  margin: 2rem auto 0 auto;
+  text-align: left;
 }
 
 #full-name,
-#email {
+#email,
+#message {
   padding: 0.5rem;
+  border: none;
+  font-family: "Quicksand", sans-serif;
 }
 
 label {
   margin: 5% 0 1% 0;
 }
 
-#submit-button {
+#send-button {
   margin-top: 0.6rem;
   padding: 0.4rem;
   border: none;

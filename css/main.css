@@ -11,24 +11,20 @@ body {
   background-color: var(--gray);
   font-family: "Quicksand", sans-serif;
   color: var(--white);
-  text-align: center;
 }
 
 /* Text */
 .section-heading {
   font-family: "Oswald", sans-serif;
   font-size: 2.5rem;
-  margin: 2rem 0 0 0;
+  margin: 4rem 0 0 0;
+  text-align: center;
 }
 
 .info-paragraph {
   min-width: 20rem;
   max-width: 30rem;
-  margin: 0 auto 1rem auto;
-  border: 0.1rem solid var(--white);
-  border-radius: 1rem;
-  padding: 1.5rem;
-  text-align: left;
+  margin: 0.2rem auto 1rem auto;
 }
 
 /* Header Navigation */
@@ -39,7 +35,8 @@ header {
 nav ul {
   display: flex;
   margin: 0;
-  padding: 1rem;
+  padding: 1rem 0.4rem 1rem 1rem;
+  align-items: center;
 }
 
 nav li {
@@ -48,19 +45,30 @@ nav li {
 }
 
 nav li:hover {
-  animation-name: wiggle;
-  animation-duration: 0.6s;
-  animation-iteration-count: infinite;
+  animation-name: grow;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
 }
 
 #logo {
   margin-right: auto;
 }
 
+#theme-button {
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
 /* Footer Navigation */
 footer {
   background-color: var(--black);
-  margin: 6rem 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 footer ul {
@@ -86,15 +94,12 @@ a:hover {
 }
 
 /* Animations */
-@keyframes wiggle {
+@keyframes grow {
   0% {
-    transform: rotate(5deg);
-  }
-  50% {
-    transform: rotate(-5deg);
+    transform: scale(1);
   }
   100% {
-    transform: rotate(5deg);
+    transform: scale(1.1);
   }
 }
 
