@@ -48,6 +48,7 @@ nav ul {
 nav li {
   list-style: none;
   margin: 0 0.5rem 0 0.5rem;
+  text-wrap: nowrap;
 }
 
 nav li:hover {
@@ -110,7 +111,8 @@ a:hover {
 }
 
 /* Media Queries */
-@media screen and (max-width: 408px) {
+/* Header */
+@media screen and (max-width: 450px) {
   #logo {
     margin-right: 0.5rem;
   }
@@ -122,8 +124,19 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 408px) {
+@media screen and (min-width: 450px) {
   nav li {
     font-size: 1.3rem;
+  }
+}
+
+/* Footer */
+@media screen and (max-width: 540px) {
+  footer ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer li {
+    margin: 0.3rem 0 0.3rem 0;
   }
 }

@@ -6,6 +6,7 @@ main {
 #hero-section {
   font-family: "Oswald", sans-serif;
   text-align: center;
+  text-wrap: nowrap;
 }
 
 #hero-heading {
@@ -17,4 +18,24 @@ main {
 #hero-subheading {
   font-size: 2rem;
   margin: 0 0 6rem 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 590px) {
+  #hero-heading {
+    font-size: 4rem;
+
+  }
+  #hero-subheading {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #hero-heading {
+    font-size: 3rem;
+  }
+  #hero-subheading {
+    font-size: 1rem;
+  }
 }
