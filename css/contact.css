@@ -18,6 +18,8 @@ main {
   padding: 0.5rem;
   border: none;
   font-family: "Quicksand", sans-serif;
+  background-color: var(--inputBgGray);
+  border: 0.1rem solid var(--black);
 }
 
 label {
@@ -29,10 +31,12 @@ label {
   padding: 0.4rem;
   border: none;
   transition: background-color 0.2s ease-in-out;
+  background-color: var(--inputBgGray);
+  border: 0.1rem solid var(--black);
 }
 
 #send-button:hover {
-  background-color: var(--light-gray);
+  background-color: var(--inputBgGrayHover);
   cursor: pointer;
 }
 
