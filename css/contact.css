@@ -5,8 +5,8 @@ main {
 /* Contact Form */
 #contact-form {
   display: flex;
+  padding: 1rem;
   flex-direction: column;
-  min-width: 18rem;
   max-width: 25rem;
   margin: 2rem auto 0 auto;
   text-align: left;
@@ -42,7 +42,4 @@ label {
 
 /* Media Queries */
 @media screen and (max-width: 440px) {
-  form {
-    margin: 2% 4% 8% 4%;
-  }
 }

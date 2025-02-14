@@ -1,7 +1,7 @@
 /* Work Detail Gallery */
 #work-detail-gallery {
   display: grid;
-  margin: 2% 1.5rem 2% 1.5rem;
+  margin: 1rem 0 2rem 0;
 }
 
 figure {

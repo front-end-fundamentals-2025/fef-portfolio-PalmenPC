@@ -16,24 +16,24 @@ main {
 }
 
 #hero-subheading {
-  font-size: 2rem;
+  font-size: 1.94rem;
   margin: 0 0 6rem 0;
 }
 
 /* Media Queries */
+/* Hero Section */
 @media screen and (max-width: 590px) {
   #hero-heading {
     font-size: 4rem;
-
   }
   #hero-subheading {
-    font-size: 1.2rem;
+    font-size: 1.28rem;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 410px) {
   #hero-heading {
-    font-size: 3rem;
+    font-size: 3.13rem;
   }
   #hero-subheading {
     font-size: 1rem;

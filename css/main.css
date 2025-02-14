@@ -25,12 +25,14 @@ body {
   font-size: 2.5rem;
   margin: 4rem 0 0 0;
   text-align: center;
+  text-wrap: nowrap;
 }
 
 .info-paragraph {
-  min-width: 20rem;
+  min-width: 10rem;
   max-width: 30rem;
   margin: 0.2rem auto 1rem auto;
+  padding: 0 1rem 0 1rem;
 }
 
 /* Header Navigation */
@@ -41,7 +43,7 @@ header {
 nav ul {
   display: flex;
   margin: 0;
-  padding: 1rem 0.4rem 1rem 1rem;
+  padding: 1rem;
   align-items: center;
 }
 
@@ -112,9 +114,18 @@ a:hover {
 
 /* Media Queries */
 /* Header */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 378px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin: 1rem 0 0 1rem;
+  }
+}
+
+@media screen and (max-width: 462px) {
   #logo {
-    margin-right: 0.5rem;
+    margin-right: 0;
   }
   nav ul {
     justify-content: center;
@@ -124,9 +135,22 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 463px) {
   nav li {
     font-size: 1.3rem;
+  }
+}
+
+/* Info paragraphs */
+@media screen and (max-width: 400px) {
+  .section-heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .section-heading {
+    font-size: 2rem;
   }
 }
 
