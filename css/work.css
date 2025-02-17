@@ -15,7 +15,7 @@ img {
   height: 90%;
   object-fit: cover;
   border-radius: 2rem;
-  border: 0.15rem solid var(--backgroundGray);
+  border: 0.15rem solid var(--black);
 }
 
 img:hover {
