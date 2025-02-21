@@ -39,7 +39,7 @@ body {
   min-width: 10rem;
   max-width: 30rem;
   margin: 0.2rem auto 1rem auto;
-  padding: 0 1rem 0 1rem;
+  padding: 0 1rem 1rem 1rem;
 }
 
 /* Header Navigation */
@@ -123,28 +123,20 @@ a:hover {
 
 /* Media Queries */
 /* Header */
-@media screen and (max-width: 378px) {
-  nav ul {
-    flex-direction: column;
-  }
-  nav li {
-    margin: 1rem 0 0 1rem;
-  }
-}
-
-@media screen and (max-width: 462px) {
+@media screen and (max-width: 356px) {
   #logo {
-    margin-right: 0;
+    margin-right: 0.5rem;
   }
   nav ul {
     justify-content: center;
   }
   nav li {
     font-size: 1rem;
+    margin: 0 0.4rem 0 0.4rem;
   }
 }
 
-@media screen and (min-width: 463px) {
+@media screen and (min-width: 421px) {
   nav li {
     font-size: 1.3rem;
   }

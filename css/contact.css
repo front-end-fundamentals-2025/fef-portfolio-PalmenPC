@@ -1,5 +1,6 @@
+/* General */
 main {
-  height: 100vh;
+  height: 85vh;
 }
 
 /* Contact Form */
@@ -9,7 +10,6 @@ main {
   flex-direction: column;
   max-width: 25rem;
   margin: 1rem auto 0 auto;
-  text-align: left;
 }
 
 #full-name,
@@ -38,8 +38,4 @@ label {
 #send-button:hover {
   background-color: var(--inputBgGrayHover);
   cursor: pointer;
-}
-
-/* Media Queries */
-@media screen and (max-width: 440px) {
 }

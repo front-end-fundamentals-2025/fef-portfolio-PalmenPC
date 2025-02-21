@@ -1,12 +1,11 @@
 /* Work Gallery */
 #work-gallery {
   display: grid;
-  gap: 1rem;
   margin: 1rem;
 }
 
 figure {
-  margin: 0 0 2% 0;
+  margin: 1rem;
 }
 
 img {
@@ -20,13 +19,14 @@ img {
 
 img:hover {
   animation-name: grow-and-dim;
-  animation-duration: 0.2s;
+  animation-duration: 0.1s;
   animation-fill-mode: forwards;
+  transition-timing-function: ease;
 }
 
 figcaption {
   text-align: center;
-  margin-top: 0.5%;
+  margin-top: 0.1rem;
 }
 
 /* Animations */
@@ -36,13 +36,13 @@ figcaption {
     opacity: 1;
   }
   100% {
-    transform: scale(1.012);
+    transform: scale(1.02);
     opacity: 0.6;
   }
 }
 
 /* Media Queries */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
   #work-gallery {
     grid-template-areas:
       "img img"
