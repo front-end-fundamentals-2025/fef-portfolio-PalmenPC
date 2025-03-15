@@ -18,8 +18,8 @@ function darkMode() {
   footerElement.classList.remove("light-mode-navigation");
 }
 
-/* Retrieves the previously stored theme */
-let theme = localStorage.getItem("theme");
+/* Retrieves the previously stored theme or enables dark mode */
+let theme = localStorage.getItem("theme") || darkMode();
 
 if (localStorage.theme === "dark") {
   darkMode();
